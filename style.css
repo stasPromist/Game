@@ -1,0 +1,90 @@
+img {
+    width: 100px;
+    height: 100px;
+}
+#main-container {
+    display: flex;
+}
+.start-go {
+    display: none;
+    width: 100%;
+}
+.container {
+    display: flex;
+    gap: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    margin-top: 60px;
+
+}
+.gamers {
+    display: inline-block;
+    gap: 10px;
+    
+
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    text-align: center;
+    border-style:groove;
+}
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    /* width: 262px; */
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    text-align: center;
+    border-style:groove;
+  }
+  
+  .dropbtn:hover,
+  .dropbtn:focus {
+    background-color: #3e8e41;
+  }
+  
+  
+  
+  
+  .dropdown {
+  
+    position: relative;
+    /* display: inline-block; */
+    /* margin-left: 600px; */
+    margin-top: 10px;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 230px;
+    overflow: auto;
+    border: 1px solid #ddd;
+    z-index: 1;
+    
+  }
+  
+  .dropdown-content option {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown option:hover {
+    background-color: #ddd;
+  }
+  
+  .show {
+    display: flex;
+  }
